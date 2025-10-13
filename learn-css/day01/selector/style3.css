@@ -1,0 +1,14 @@
+#my-div1 {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+#my-span1 {
+  background-color: blue;
+  color: aliceblue;
+  display: inline-block;
+}
+#my-span2 {
+  color: red;
+  font-weight: bold;
+}

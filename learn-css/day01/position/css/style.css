@@ -1,0 +1,23 @@
+/* 너비가 1280px 이하인 화면은 배경이 pink이고 
+너비가 600px이하인 화면은 배경이 green으로 보인다.*/
+@media (max-width: 1280px) {
+  body {
+    background-color: rgb(255, 197, 207);
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: rgb(80, 201, 80);
+  }
+}
+
+h1 {
+  border-bottom: 2px dotted black;
+  padding: 10px;
+}
+span {
+  border: 3px dotted red;
+  display: inline;
+  padding: 5px;
+}

@@ -1,0 +1,33 @@
+* {
+  text-align: center;
+}
+.header {
+  border: 2px solid red;
+  line-height: 55px;
+  height: 55px;
+}
+.nav {
+  border: 2px solid blue;
+  height: 110px;
+  /* display: flex; */
+}
+.main {
+  border: 2px solid green;
+  height: 300px;
+  line-height: 300px;
+  /* display: flex; */
+}
+.footer {
+  border: 2px solid black;
+  height: 55px;
+  line-height: 55px;
+}
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,12 @@
+.my-p1 {
+  color: red;
+}
+div p {
+  color: blue;
+}
+div div p {
+  background-color: aqua;
+}
+.my-p3 {
+  background-color: bisque;
+}
