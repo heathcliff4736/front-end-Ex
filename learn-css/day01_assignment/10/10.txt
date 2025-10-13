@@ -1,0 +1,6 @@
+1. 2
+2. 2
+3. 3
+4. O
+5. X
+6. max-width, font-size
