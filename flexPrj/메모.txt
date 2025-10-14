@@ -5,3 +5,18 @@
   <input class="search-form_input"/>
   <button class="search-form_btn> </button>
 </from>
+
+1. 공통 폰트 지정 global.css
+2. 모든 요소들의 초기화 reset.css
+3. 사용자 지정 속성 색상 지정을 변수로 지정하여 재사용
+
+배운내용 정리
+1. BEM  (block, element, modifier의 줄임말) 부모의 클래스 이름을 이용하여 작명
+2. 부모와 input을 언급하고 [type=""] 특정 코드를 선택할 수 있다.
+3. not (부정 가상 클래스) 괄호 안에 작성한 type 제외한 요소에 대해 스타일링하라
+4. required 적으면 폼을 반드시 입력하도록 강제할 수 있다.
+5. 자동완성 비활성화 옵션 : autocomplete : off
+6. reset.css 코드는 브라우저가 기본적으로 갖고 있는 스타일을 초기화할때 사용
+7. 요소가 웹 화면을 벗어나지 않게 하려면
+    box-sizing : border-box;
+
