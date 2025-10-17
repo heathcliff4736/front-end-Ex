@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>제목</h1>
+      <p>설명입니다.</p>
+      <script>
+        const div = document.querySelector('div');
+        console.log(div.nodeName);
+        // 첫 번째 div요소 선택
+        console.log(div.children.length);
+        // 그 자식 요소들에 children 속성을 통해서 접근
+        console.log(div.children[0].textContent);
+        // textContext로 텍스트 값 꺼냄
+        console.log(div.children[1].textContent);
+      </script>
+    </div>
+  </body>
+</html>
