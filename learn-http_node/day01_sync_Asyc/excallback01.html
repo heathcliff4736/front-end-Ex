@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let g = 0;
+
+      // setTimeout 비동기 함수의 콜백 함수에서 전역 변수 g의 값이 변경되길 기대
+      // 실제로는 변수 g의 값은 변경되지 않는다.
+      // setTimeout 의 콜백함수가 콜 스택으로 이동해서 실행되는 시점에는 이미 console.log 함수가 끝난 시점이기 때문
+      setTimeout(() => {
+        g = 100;
+      }, 0);
+
+      console.log(g); // 0
+    </script>
+  </body>
+</html>
